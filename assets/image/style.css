@@ -1,0 +1,238 @@
+/* style */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    /* background-image: url('../image/background.jpeg'); */
+    font-family: Arial, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+  }
+
+/*******************************/
+
+/* logo_index */ 
+.logo_index_index {
+    width: 400px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo_index:hover {
+    transform: scale(1.2);
+}
+/* fin logo_index */
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  
+/* Form */
+  .form__section {
+    padding: 50px 0;
+  }
+  
+  .form__section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  .form__section-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .form__section-container form {
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .form__section-container form:hover {
+    transform: translateY(-5px);
+  }
+  
+  .form__section-container form input[type="text"],
+  .form__section-container form input[type="email"],
+  .form__section-container form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 18px;
+    transition: border-bottom 0.3s ease-in-out;
+  }
+  
+  .form__section-container form input[type="text"]:focus,
+  .form__section-container form input[type="email"]:focus,
+  .form__section-container form input[type="password"]:focus {
+    outline: none;
+    border-bottom: 2px solid #00a0d2;
+  }
+  
+  .form__section-container form button[type="submit"] {
+    background-color: #00a0d2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form__section-container form button[type="submit"]:hover {
+    background-color: #0078a7;
+  }
+  
+  .form__section-container form small {
+    display: block;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .form__section-container form small a {
+    color: #00a0d2;
+    text-decoration: none;
+  }
+  
+  .form__section-container form small a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Signup */
+  .signup {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*alrets et succes message*/  
+.alret{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+.success {
+    background-color: #8BC34A;
+    color: #fff;
+  }
+  
+.error {
+    background-color: #F44336;
+    color: #fff;
+  }
+  
+.alret p {
+    margin: 0;
+  }
+/*fin alrets et succes message*/
+  
+  
